@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5FF42B1A7DAD2E00151C96 /* arrowup.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF42A1A7DAD2E00151C96 /* arrowup.png */; };
 		9A8BCA9D1A7BABAA000AF22B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8BCA9C1A7BABAA000AF22B /* main.m */; };
 		9A8BCAA01A7BABAA000AF22B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8BCA9F1A7BABAA000AF22B /* AppDelegate.m */; };
 		9A8BCAA31A7BABAA000AF22B /* Cafes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A8BCAA11A7BABAA000AF22B /* Cafes.xcdatamodeld */; };
@@ -15,6 +16,10 @@
 		9A8BCAAB1A7BABAA000AF22B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8BCAAA1A7BABAA000AF22B /* Images.xcassets */; };
 		9A8BCAAE1A7BABAA000AF22B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8BCAAC1A7BABAA000AF22B /* LaunchScreen.xib */; };
 		9A8BCABA1A7BABAA000AF22B /* CafesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8BCAB91A7BABAA000AF22B /* CafesTests.m */; };
+		9A8BCAC81A7CB818000AF22B /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8BCAC71A7CB818000AF22B /* Venue.m */; };
+		9A8BCACA1A7CE184000AF22B /* phonelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8BCAC91A7CE184000AF22B /* phonelogo.png */; };
+		9A8BCACC1A7CE189000AF22B /* coffeelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8BCACB1A7CE189000AF22B /* coffeelogo.png */; };
+		9A8BCAD31A7CF9DA000AF22B /* arrowdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8BCAD21A7CF9DA000AF22B /* arrowdown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A5FF42A1A7DAD2E00151C96 /* arrowup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowup.png; sourceTree = "<group>"; };
 		9A8BCA971A7BABAA000AF22B /* Cafes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8BCA9B1A7BABAA000AF22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8BCA9C1A7BABAA000AF22B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +48,11 @@
 		9A8BCAB31A7BABAA000AF22B /* CafesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8BCAB81A7BABAA000AF22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8BCAB91A7BABAA000AF22B /* CafesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafesTests.m; sourceTree = "<group>"; };
+		9A8BCAC61A7CB818000AF22B /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		9A8BCAC71A7CB818000AF22B /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		9A8BCAC91A7CE184000AF22B /* phonelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phonelogo.png; sourceTree = "<group>"; };
+		9A8BCACB1A7CE189000AF22B /* coffeelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeelogo.png; sourceTree = "<group>"; };
+		9A8BCAD21A7CF9DA000AF22B /* arrowdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdown.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +98,8 @@
 				9A8BCA9F1A7BABAA000AF22B /* AppDelegate.m */,
 				9A8BCAA41A7BABAA000AF22B /* ViewController.h */,
 				9A8BCAA51A7BABAA000AF22B /* ViewController.m */,
+				9A8BCAC61A7CB818000AF22B /* Venue.h */,
+				9A8BCAC71A7CB818000AF22B /* Venue.m */,
 				9A8BCAA71A7BABAA000AF22B /* Main.storyboard */,
 				9A8BCAAA1A7BABAA000AF22B /* Images.xcassets */,
 				9A8BCAAC1A7BABAA000AF22B /* LaunchScreen.xib */,
@@ -99,6 +112,10 @@
 		9A8BCA9A1A7BABAA000AF22B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A5FF42A1A7DAD2E00151C96 /* arrowup.png */,
+				9A8BCAD21A7CF9DA000AF22B /* arrowdown.png */,
+				9A8BCACB1A7CE189000AF22B /* coffeelogo.png */,
+				9A8BCAC91A7CE184000AF22B /* phonelogo.png */,
 				9A8BCA9B1A7BABAA000AF22B /* Info.plist */,
 				9A8BCA9C1A7BABAA000AF22B /* main.m */,
 			);
@@ -171,6 +188,7 @@
 				TargetAttributes = {
 					9A8BCA961A7BABAA000AF22B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = HDMKKJX78Y;
 					};
 					9A8BCAB21A7BABAA000AF22B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -203,8 +221,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8BCAA91A7BABAA000AF22B /* Main.storyboard in Resources */,
+				9A8BCAD31A7CF9DA000AF22B /* arrowdown.png in Resources */,
+				9A5FF42B1A7DAD2E00151C96 /* arrowup.png in Resources */,
 				9A8BCAAE1A7BABAA000AF22B /* LaunchScreen.xib in Resources */,
+				9A8BCACC1A7CE189000AF22B /* coffeelogo.png in Resources */,
 				9A8BCAAB1A7BABAA000AF22B /* Images.xcassets in Resources */,
+				9A8BCACA1A7CE184000AF22B /* phonelogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +246,7 @@
 			files = (
 				9A8BCAA01A7BABAA000AF22B /* AppDelegate.m in Sources */,
 				9A8BCAA31A7BABAA000AF22B /* Cafes.xcdatamodeld in Sources */,
+				9A8BCAC81A7CB818000AF22B /* Venue.m in Sources */,
 				9A8BCAA61A7BABAA000AF22B /* ViewController.m in Sources */,
 				9A8BCA9D1A7BABAA000AF22B /* main.m in Sources */,
 			);
@@ -347,9 +370,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cafes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +383,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cafes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +445,7 @@
 				9A8BCABF1A7BABAA000AF22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A8BCAC01A7BABAA000AF22B /* Build configuration list for PBXNativeTarget "CafesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +454,7 @@
 				9A8BCAC21A7BABAA000AF22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
