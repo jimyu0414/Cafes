@@ -42,6 +42,3 @@ ability to call coffee shop
 
 --------Screen Shots--------
 
-![Alt text](https://cloud.githubusercontent.com/assets/7435852/6040283/18e65d74-acc4-11e4-9755-be5baa136404.jpg "Optional title")
-
-![Alt text](https://cloud.githubusercontent.com/assets/7435852/6040282/18300b78-acc4-11e4-949a-17b86e9d715a.jpg "Optional title")
